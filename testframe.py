@@ -29,7 +29,7 @@ def get_location():
     """
     try:
         print("Using OpenCage API for geolocation...")
-        api_key = "f0213cfe3b3c452786edb20283a5f37d"  # Replace with your OpenCage API key
+        api_key = "API KEY"  # Replace with your OpenCage API key
         ip_location_url = "https://ipinfo.io"
 
         response = requests.get(ip_location_url).json()
